@@ -5,6 +5,17 @@ git config --global user.email "emailDeGithub"
 git config --global -e
 
 
-git status  (veo del estado de los archivos )
+git status  ( veo del estado de los archivos )
 
 git add .  ( va a pasar todos los archivos al area de ensayo)
+git commit .m "primer commit"   ( crean una copia con el nombre de la descripcion y pasando los archivos al repo local)
+git branch -M main ( cree la rama main)
+git remote add origin https://github.com/MarcelaCerda/ClaseGit23538.git   (relacione mi git con github)
+git push -u origin main   (subir los archivos del repo local a Github)
+
+
+hago cambios en elproyecto y cuando quiero otro copia
+git add .   
+git commit .m "cambios a 14/9 16:45"   
+git push   
+
